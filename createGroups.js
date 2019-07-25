@@ -1,28 +1,13 @@
 // GLOBAL ARRAYS & OBJECTS
     const strongStudents = {
-        Annie: [],
-        Annabel: [],
-        Aria: [],
-        Abe: [],
-        Abigail: []
+        Kevin: [],
+        Jason: [],
+        Matt: [],
+        Won: [],
+        Haig: []
     };
   
-    const yetStrongStudents = [
-        "Jane",
-        "John",
-        "Jeremy",
-        "Jackson",
-        "Judy",
-        "Judith",
-        "Johnny",
-        "Joseph",
-        "Joe",
-        "Jerry",
-        "Jeremiah",
-        "June",
-        "Johnathan"
-    ];
-
+const yetStrongStudents = ['Don','Mengyuan','Franciscus','Jeremy','Keiko','Lidia','Mark','Meredith','Sarah','Sharjeel','Sheena','Tansu'];
 // FUNCTIONS
 // Fisher-Yates Shuffle
     function shuffle(array) {
