@@ -1,4 +1,4 @@
-# groupCreation
+# createGroups
 Simple recursive algorithm to create groups fairly. Distributes `yetStrongStudents` among `strongStudents` randomly and evenly. 
 
 ## How to use
