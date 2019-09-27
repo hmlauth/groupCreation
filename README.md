@@ -1,10 +1,12 @@
 # groupCreation
-Simple recursive algorithm to create groups fairly. Distributes `yetStrongStudents` among `strongStudents` randomly and evenly. 
+Simple recursive algorithms to create groups at random or by strength levels. For strength levels, `yetStrongStudents` are distributed among `strongStudents` randomly and evenly. 
 
 # How to use
-1. Identify strongest students in your class and put their names in the `strongStudents` object.
-2. Similarly, put the remaining students in the `yetStrongStudents` array. 
-3. Run program. 
+1. In `students-roster` directory, add students to `stuent_full-roster.js` and/or divided among objects in `students_by_strength.js`.
 
-# Future Development
-Include a check to ensure that groups stay within 3 - 5 people and notify user of program if not, i.e. 'Please provide at least 2 more strong students to keep groups under 5 people.'
+2. When ready to create groups, run either of the following commands in node: 
+> `node shuffle_full-roster`
+> `node shuffle_by_strength`
+
+3. NOTE: If creating groups based on full roster then be sure to set desired group size on `line 4`.
+
